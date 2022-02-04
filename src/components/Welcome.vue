@@ -1,17 +1,6 @@
-<script setup lang="ts">
-import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
-import ToolingIcon from './icons/IconTooling.vue'
-import EcosystemIcon from './icons/IconEcosystem.vue'
-import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
-</script>
-
 <template>
   <WelcomeItem>
-    <template #icon>
-      <DocumentationIcon />
-    </template>
+    <template #icon><DocumentationIcon /></template>
     <template #heading>Documentation</template>
 
     îles’s
@@ -20,9 +9,7 @@ import SupportIcon from './icons/IconSupport.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <ToolingIcon />
-    </template>
+    <template #icon><ToolingIcon /></template>
     <template #heading>Tooling</template>
 
     This project is served and bundled with
@@ -32,13 +19,11 @@ import SupportIcon from './icons/IconSupport.vue'
   </WelcomeItem>
 
   <WelcomeItem>
-    <template #icon>
-      <CommunityIcon />
-    </template>
+    <template #icon><CommunityIcon /></template>
     <template #heading>Community</template>
 
     Got stuck? Ask your question on the
-    <a target="_blank" href="https://discord.gg/PkbxgzPhJv">#ssr channel</a> of the Vite.js Discord
+    <a target="_blank" href="https://discord.gg/xhheEDwUMX">#iles channel</a> of the Vite.js Discord
     server. Follow the
     <a target="_blank" href="https://twitter.com/ilesjs">@ilesjs</a>
     twitter account for latest news.
